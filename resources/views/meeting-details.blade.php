@@ -96,6 +96,7 @@ https://templatemo.com/tm-569-edu-meeting
       </div>
     </div>
   </section>
+  
           <?php
             $conn= mysqli_connect("j21q532mu148i8ms.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","o28i6b1rig6xki3o","e0vamb3hgnv6hvc3","omxpxc47mb2xtxtx");
             ?>
