@@ -1,3 +1,11 @@
+Zamora Arreola Christian Armando
+Grupo:3522IS 
+Carrera: Ingenieria en Software
+Link del Dominio: https://examen3-proyecto.herokuapp.com/
+Link de la API: https://dog.ceo/dog-api/
+Link del video: https://youtu.be/yYqPR3kIJLc
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
