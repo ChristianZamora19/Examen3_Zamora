@@ -98,7 +98,7 @@ https://templatemo.com/tm-569-edu-meeting
   </section>
 
           <?php
-            $conn= mysqli_connect("j21q532mu148i8ms.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","o28i6b1rig6xki3o","e0vamb3hgnv6hvc3","omxpxc47mb2xtxtx");
+            $conn= mysqli_connect("j21q532mu148i8ms.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","o28i6b1rig6xki3o","5c857ac1c9aa37158135c415ae48a5bc3626a8ba0874984283a804e0fbf3b6d2","omxpxc47mb2xtxtx");
             ?>
          <?php
             $sql = "SELECT * FROM teatros";
