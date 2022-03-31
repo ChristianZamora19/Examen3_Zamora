@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('teatros', function (Blueprint $table) {
             $table->id();
-            $table->string('Nombre');
-            $table->string('Direccion');
+            $table->text('Nombre');
+            $table->text('Direccion');
             $table->timestamps();
         });
     }

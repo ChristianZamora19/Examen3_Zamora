@@ -15,8 +15,9 @@ return new class extends Migration
     {
         Schema::create('obras', function (Blueprint $table) {
             $table->id();
-            $table->string('Nombre');
-            $table->string('Director');
+            $table->text('Nombre');
+            $table->text('Director');
+            $table->text('Descripcion');
             $table->timestamps();
         });
     }
