@@ -110,7 +110,7 @@ https://templatemo.com/tm-569-edu-meeting
               </div>
             </div>
             <?php
-            $conn= mysqli_connect("localhost","root","","obras_teatrales");
+            $conn= mysqli_connect("j21q532mu148i8ms.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","o28i6b1rig6xki3o","	yjzy598v8ig6kwk1","	omxpxc47mb2xtxtx");
             ?>
          <?php
             $sql = "SELECT * FROM obras";
