@@ -100,6 +100,7 @@ https://templatemo.com/tm-569-edu-meeting
 <br>
 <article class="">
 <div class="container">
+  <br>
     <h2><a href="Api">Da click aqui</a> Para ver mas Perros de diferentes Razas</h2>
   </div>
   @foreach($datos as $dato)
