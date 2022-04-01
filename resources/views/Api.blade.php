@@ -116,9 +116,6 @@ https://templatemo.com/tm-569-edu-meeting
                   </div>
                   <a href=""><img src="{{$dato}}" alt=""></a>
                 </div>
-                <div class="down-content">
-                  
-                  </div>
                 </div>
               </div>
             </div>
