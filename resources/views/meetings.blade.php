@@ -117,7 +117,7 @@ https://templatemo.com/tm-569-edu-meeting
          <?php
             $sql = "SELECT * FROM obras";
             $result = mysqli_query($conn, $sql);
-            while($most=mysqli_fetch_array($result)){
+            while($mostrar=mysqli_fetch_array($result)){
                ?>
           
   <section class="meetings-page" id="meetings">
@@ -137,9 +137,9 @@ https://templatemo.com/tm-569-edu-meeting
                   <a href=""><img src="/images/single-meeting.jpg" alt=""></a>
                 </div>
                 <div class="down-content">
-                  <a href=""><h4><?php echo $most['Nombre']?></h4></a>
-                  <p>Director:<?php echo $most['Director']?></p>
-                  <p>Descripcion:<?php echo $most['Descripcion']?></p>
+                  <a href=""><h4><?php echo $mostrar['Nombre']?></h4></a>
+                  <p>Director:<?php echo $mostrar['Director']?></p>
+                  <p>Descripcion:<?php echo $mostrar['Descripcion']?></p>
                   <div class="row">
                     <div class="col-lg-4">
                       <div class="hours">
