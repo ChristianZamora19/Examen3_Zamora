@@ -100,30 +100,11 @@ https://templatemo.com/tm-569-edu-meeting
 
 <article class="">
   @foreach($datos as $dato)
-  <section class="meetings-page" id="meetings">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="meeting-single-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>$14.00</span>
-                  </div>
-                  <div class="date">
-                    <h6>Nov <span>12</span></h6>
-                  </div>
-                  <a href=""><img src="{{$dato}}" alt=""></a>
-                </div>
-                </div>
-              </div>
-            </div>
-  
+  <img src="{{$dato}}"  width="100" height="100" alt="">
 
   @endforeach
   <div class="container">
-    <h2><a href="Api">Mas perros</a></h2>
+    <h2><a href="Api">mas perros</a></h2>
   </div>
 </article>
  
