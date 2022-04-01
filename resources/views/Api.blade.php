@@ -98,8 +98,6 @@ https://templatemo.com/tm-569-edu-meeting
     </div>
   </section>
 
-<section id="portfolio" class="tow">
-  <div class="container">
 <article class="">
   @foreach($datos as $dato)
   <img src="{{$dato}}" alt="">
@@ -109,8 +107,7 @@ https://templatemo.com/tm-569-edu-meeting
     <h2><a href="Api">mas perros</a></h2>
   </div>
 </article>
-  </div>
-</section>
+ 
 
 <?php
 $url = "https://dog.ceo/api/breeds/image/random/50";
