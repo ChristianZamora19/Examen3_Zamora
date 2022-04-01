@@ -100,7 +100,7 @@ https://templatemo.com/tm-569-edu-meeting
 
 <article class="">
   @foreach($datos as $dato)
-  <img src="{{$dato}}" alt="">
+  <img src="{{$dato}}"  width="100" height="100" alt="">
 
   @endforeach
   <div class="container">
