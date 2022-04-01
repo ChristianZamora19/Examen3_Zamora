@@ -14,7 +14,7 @@ class ApiController extends Controller
     public function Api()
     {
         $cliente = new \GuzzleHttp\Client();
-        $response = $cliente->request('GET', 'https://dog.ceo/api/breeds/image/random/');
+        $response = $cliente->request('GET', 'https://dog.ceo/api/breeds/image/random/50');
         $datos = json_decode($response->getBody()->getContents(),true);
 
         $Perros = [];
