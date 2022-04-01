@@ -104,7 +104,7 @@ https://templatemo.com/tm-569-edu-meeting
       <div  class="card border-primary mb-3 card bg-light mb-3">
       <div class="card-group">
       <div class="card-body text-success">
-         <h3 class="card-title">Perro: <br> <img src="{{$dato}}" alt=""></h3> 
+         <h3 class="card-title"><br> <img src="{{$dato}}" alt=""></h3> 
          <br>
       </div>
       </div>
@@ -114,7 +114,7 @@ https://templatemo.com/tm-569-edu-meeting
 
   @endforeach
   <div class="container">
-    <h2><a href="Api">Da click aqui para ver mas Perros de diferentes Razas</a></h2>
+    <h2><a href="Api">Da click aqui</a>para ver mas Perros de diferentes Razas</h2>
   </div>
 </article>
 
