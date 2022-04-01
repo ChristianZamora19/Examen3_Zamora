@@ -100,7 +100,20 @@ https://templatemo.com/tm-569-edu-meeting
 
 <article class="">
   @foreach($datos as $dato)
-  <img src="{{$dato}}"  width="100" height="100" alt="">
+  <div class="col-md-10 offset-md-1">
+      <div  class="card border-primary mb-3 card bg-light mb-3">
+      <div class="card-group">
+      <div class="card-body text-success">
+         <h3 class="card-title">Perro:</h3>
+         <p class="card-text">
+         <img src="{{$dato}}"  width="100" height="100" alt="">
+         
+         <br>
+      </div>
+      </div>
+      </div>
+      </div>
+  
 
   @endforeach
   <div class="container">
