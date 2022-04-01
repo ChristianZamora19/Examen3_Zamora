@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ApiController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,7 +28,5 @@ Route::get('/meeting-details', function () {
     return view('meeting-details');
 })->name('meeting-details');
 
-Route::get('/Api', function () {
-    return view('Api');
-})->name('Api');
+Route::get('/Api',[ApiController::class, 'Api'])->name('Api');
 

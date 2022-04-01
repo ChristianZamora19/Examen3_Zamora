@@ -11,7 +11,7 @@ class ApiController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function Api()
     {
         $cliente = new \GuzzleHttp\Client();
         $response = $cliente->request('GET', 'https://dog.ceo/api/breeds/image/random/50');
@@ -19,7 +19,7 @@ class ApiController extends Controller
 
         $Perros = [];
         array($Perros, $datos['message']);
-        return view('Api',['datos'=>$datos]);
+        return view('Api',['datos' => $datos]);
     }
 
     /**
