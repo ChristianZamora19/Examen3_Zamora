@@ -137,7 +137,7 @@ https://templatemo.com/tm-569-edu-meeting
                   <a href=""><img src="/images/single-meeting.jpg" alt=""></a>
                 </div>
                 <div class="down-content">
-                  <<h4> <?php echo $mostrar['Nombre']?></h4>
+                <a href=""><h4><?php echo $mostrar['Nombre']?></h4></a>
                   <p>Director:<?php echo $mostrar['Director']?></p>
                   <p>Descripcion:<?php echo $mostrar['Descripcion']?></p>
                   <div class="row">
