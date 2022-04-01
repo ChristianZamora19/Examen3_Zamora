@@ -99,7 +99,7 @@ https://templatemo.com/tm-569-edu-meeting
   </section>
 
 <article class="">
-  @foreach($datos as $dato)
+  @foreach($datos as $datos)
   <img src="{{$dato}}" alt="">
 
   @endforeach
