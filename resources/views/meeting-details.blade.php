@@ -123,7 +123,7 @@ https://templatemo.com/tm-569-edu-meeting
                 </div>
                 <div class="down-content">
                   <a href=""><h4><?php echo $mostrar['Nombre']?></h4></a>
-                  <p>Director:<?php echo $mostrar['Direccion']?></p>
+                  <p>Direccion:<?php echo $mostrar['Direccion']?></p>
                   
                   </div>
                 </div>

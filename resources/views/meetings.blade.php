@@ -119,8 +119,8 @@ https://templatemo.com/tm-569-edu-meeting
             $result = mysqli_query($conn, $sql);
             while($mostrar=mysqli_fetch_array($result)){
                ?>
-          
-  <section class="meetings-page" id="meetings">
+               
+            <section class="meetings-page" id="meetings">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -137,28 +137,10 @@ https://templatemo.com/tm-569-edu-meeting
                   <a href=""><img src="/images/single-meeting.jpg" alt=""></a>
                 </div>
                 <div class="down-content">
-                <a href=""><h4><?php echo $mostrar['Nombre']?></h4></a>
-                  <p>Director:<?php echo $mostrar['Director']?></p>
-                  <p>Descripcion:<?php echo $mostrar['Descripcion']?></p>
-                  <div class="row">
-                    <div class="col-lg-4">
-                      <div class="hours">
-                        <h5>Horarios</h5>
-                        <p>Lunes -  viernes: 07:00 AM - 13:00 PM<br>Sabado- Domingo: 09:00 AM - 15:00 PM</p>
-                      </div>
-                    </div>
-    
-                    <div class="col-lg-12">
-                      <div class="share">
-                        <h5>Share:</h5>
-                        <ul>
-                          <li><a href="#">Facebook</a>,</li>
-                          <li><a href="#">Twitter</a>,</li>
-                          <li><a href="#">Linkedin</a>,</li>
-                          <li><a href="#">Behance</a></li>
-                        </ul>
-                      </div>
-                    </div>
+                  <a href=""><h4><?php echo $mostrar['Nombre']?></h4></a>
+                  <p>Director: <?php echo $mostrar['Director']?></p>
+                  <p>Descripcion: <?php echo $mostrar['Descripcion']?></p>
+                  
                   </div>
                 </div>
               </div>

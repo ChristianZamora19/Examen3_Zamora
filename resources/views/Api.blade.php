@@ -91,7 +91,7 @@ https://templatemo.com/tm-569-edu-meeting
       <div class="row">
         <div class="col-lg-12">
           <h6>Te gustan los perros?</h6>
-          <h2>Datos de la API DOG</h2>
+          <h2>Link de la API DOG</h2>
           <h2><a href="https://dog.ceo/dog-api/" >Clic Aqui</a></h2>
         </div>
       </div>
@@ -99,6 +99,9 @@ https://templatemo.com/tm-569-edu-meeting
   </section>
 <br>
 <article class="">
+<div class="container">
+    <h2><a href="Api">Da click aqui</a> Para ver mas Perros de diferentes Razas</h2>
+  </div>
   @foreach($datos as $dato)
   <div class="col-md-10 offset-md-1">
       <div  class="card border-primary mb-3 card bg-light mb-3">
@@ -113,9 +116,7 @@ https://templatemo.com/tm-569-edu-meeting
   
 
   @endforeach
-  <div class="container">
-    <h2><a href="Api">Da click aqui</a>para ver mas Perros de diferentes Razas</h2>
-  </div>
+  
 </article>
 
   
