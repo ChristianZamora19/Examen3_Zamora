@@ -97,17 +97,14 @@ https://templatemo.com/tm-569-edu-meeting
       </div>
     </div>
   </section>
-
+<br>
 <article class="">
   @foreach($datos as $dato)
   <div class="col-md-10 offset-md-1">
       <div  class="card border-primary mb-3 card bg-light mb-3">
       <div class="card-group">
       <div class="card-body text-success">
-         <h3 class="card-title">Perro:</h3>
-         <p class="card-text">
-         <img src="{{$dato}}" alt="">
-         
+         <h3 class="card-title">Perro: <br> <img src="{{$dato}}" alt=""></h3> 
          <br>
       </div>
       </div>
@@ -117,20 +114,10 @@ https://templatemo.com/tm-569-edu-meeting
 
   @endforeach
   <div class="container">
-    <h2><a href="Api">mas perros</a></h2>
+    <h2><a href="Api">Da click aqui para ver mas Perros de diferentes Razas</a></h2>
   </div>
 </article>
- 
 
-<?php
-$url = "https://dog.ceo/api/breeds/image/random/50";
-$json = file_get_contents($url);
-$datos = json_decode($json, true);
-
-$conv = $datos["message"];
-
-var_dump($conv)
-?>
   
 
     </div>
