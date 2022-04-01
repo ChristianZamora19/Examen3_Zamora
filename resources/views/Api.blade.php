@@ -106,7 +106,7 @@ https://templatemo.com/tm-569-edu-meeting
       <div class="card-body text-success">
          <h3 class="card-title">Perro:</h3>
          <p class="card-text">
-         <img src="{{$dato}}"  width="100" height="100" alt="">
+         <img src="{{$dato}}" alt="">
          
          <br>
       </div>
